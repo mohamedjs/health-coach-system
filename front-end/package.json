@@ -1,0 +1,22 @@
+{
+    "name": "health-coach-app",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "web": "cd packages/web-app && npm start",
+        "mobile": "cd packages/native && npx expo start"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.27.4",
+        "@babel/preset-env": "^7.27.2",
+        "@babel/preset-react": "^7.27.1",
+        "@types/react": "^19.1.0",
+        "react-native": "0.79.2",
+        "typescript": "^5.8.3"
+    },
+    "dependencies": {
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0"
+    }
+}
