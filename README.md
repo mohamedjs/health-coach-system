@@ -106,7 +106,7 @@ health-coach-system/
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/mohamedjs/health-coach-system
 cd health-coach-system
 ```
 
