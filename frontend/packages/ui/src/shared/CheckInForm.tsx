@@ -98,7 +98,7 @@ export const CheckInForm = ({ onSubmit }: CheckInFormProps) => {
   const moodStyles = getMoodStyles();
   const buttonTextColor = '#ffffff';
 
-  // Psychology-based animations depending on MOOD
+  // animations depending on MOOD
   const showPopupAnimation = () => {
     // Reset all animations
     fadeAnim.setValue(0);
@@ -539,7 +539,7 @@ export const CheckInForm = ({ onSubmit }: CheckInFormProps) => {
                 {suggestion}
               </Paragraph>
               
-              <XStack space="$3" style={{ marginTop: 12 }}>
+              <XStack space="$3" style={{ marginTop: 12, width: '100%', justifyContent: 'center' }}>
                 <Button
                   onPress={handleClosePopup}
                   style={{
@@ -551,6 +551,9 @@ export const CheckInForm = ({ onSubmit }: CheckInFormProps) => {
                     paddingHorizontal: 24,
                     paddingVertical: 12,
                     minWidth: 120,
+                    maxWidth: 220,
+                    height: 70,
+                    alignSelf: 'center',
                     shadowColor: moodStyles.buttonBgColor,
                     shadowOffset: { width: 0, height: 2 },
                     shadowOpacity: 0.15,
@@ -562,6 +565,7 @@ export const CheckInForm = ({ onSubmit }: CheckInFormProps) => {
                     color: buttonTextColor, 
                     fontWeight: '600',
                     fontSize:  16,
+                    textAlign: 'center',
                   }}>
                     {(() => {
                       switch (mood) {
