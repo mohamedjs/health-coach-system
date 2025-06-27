@@ -7,5 +7,5 @@ export interface CheckInRequest {
 }
 
 export interface CheckInResponse {
-  suggestions: string[];
+  suggestion: string;
 }

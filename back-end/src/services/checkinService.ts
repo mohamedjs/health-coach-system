@@ -32,6 +32,6 @@ export default class CheckInService {
   static getSuggestionForCheckIn({ mood }: CheckInRequest): CheckInResponse {
     const suggestions = this.moodSuggestions[mood];
     const random = Math.floor(Math.random() * suggestions.length);
-    return { suggestions: [suggestions[random]] };
+    return { suggestion: suggestions[random] };
   }
 }
