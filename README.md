@@ -1,6 +1,6 @@
 # 🏥 Health Coach System
 
-A modern, comprehensive health coaching platform built with cutting-edge technologies. Track your wellness journey across web, mobile, and backend components with seamless cross-platform synchronization.
+A modern, comprehensive health coaching platform built with cutting-edge technologies. Track your Mood across web, mobile, and backend components with seamless cross-platform synchronization.
 
 ![Health Coach System](https://img.shields.io/badge/Health%20Coach-System-brightgreen)
 ![React](https://img.shields.io/badge/React-19.1-blue)
